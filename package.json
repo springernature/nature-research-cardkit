@@ -22,7 +22,7 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
-    "cardkit": "^2.0.4",
+    "cardkit": "https://github.com/chris-creditdesign/cardkit/tarball/master",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   }
