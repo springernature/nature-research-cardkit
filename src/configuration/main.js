@@ -3,8 +3,8 @@ const layers = require('./layers');
 
 const configuration = {
   card: {
-    width: 1000,
-    height: 400,
+    width: 1066,
+    height: 600,
     fill: '#333333'
   },
   fonts: fonts,

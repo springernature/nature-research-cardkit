@@ -2,6 +2,12 @@
 
 > Custom cardkit for NRG social media accounts
 
+### To do
+
+- Add dy attribute for text
+- Add rotation attribute for text
+- Add transform attribute for svg paths
+
 ### Installation & usage
 
 - Clone this repo
