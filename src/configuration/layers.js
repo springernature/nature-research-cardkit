@@ -74,7 +74,7 @@ module.exports = {
   url: {
     name: 'url',
     type: 'text',
-    text: 'bit.ly/xyxyxy',
+    text: 'go.nature.com/XXX',
     fontSize: 26,
     fontFamily: 'NewsGothicMTOT-Regular, Helvetica, sans-serif',
     fill: '#000000',

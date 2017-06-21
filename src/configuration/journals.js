@@ -36,7 +36,7 @@ const journals = [
 	{name: 'Nature Reviews Immunology', colour: '#684A94', logo: './images/Nature-Reviews-Immunology.png'},
 	{name: 'Nature Reviews Materials', colour: '#009adf', logo: './images/Nature-Reviews-Materials.png'},
 	{name: 'Nature Reviews Microbiology', colour: '#7B0031', logo: './images/Nature-Reviews-Microbiology.png'},
-	{name: 'Nature Reviews Molecular Cell Biology', colour: '#0a2267', logo: './images/Nature-Reviews-Molecular-Cell-Biology.png'},
+	{name: 'Nature Reviews Molecular Cell Biology', colour: '#004981', logo: './images/Nature-Reviews-Molecular-Cell-Biology.png'},
 	{name: 'Nature Reviews Nephrology', colour: '#93A8C5', logo: './images/Nature-Reviews-Nephrology.png'},
 	{name: 'Nature Reviews Neurology', colour: '#9E7885', logo: './images/Nature-Reviews-Neurology.png'},
 	{name: 'Nature Reviews Neuroscience', colour: '#007D35', logo: './images/Nature-Reviews-Neuroscience.png'},
