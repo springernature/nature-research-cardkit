@@ -12,48 +12,28 @@ var twitterCard = {
   marginSide: 30
 };
 
-var natureLogo = {
-  width: 180,
-  height: 40
+var logo = {
+  width: 600,
+  height: 180
 }
 
-var circleLogo = {
-  width: 90,
-  height: 90
-}
-
-var twitterCreditRight = {
-  card: twitterCard,
-  layers: {
-    headline: {
-      x: twitterCard.width / 2,
-      y: twitterCard.height * 0.3
-    },
-    url: {
-      textAnchor: 'start',
-      x: twitterCard.marginSide,
-      y: twitterCard.height - twitterCard.marginTop - 20
-    },
-    credit: {
-      textAnchor: 'end',
-      x: twitterCard.width - twitterCard.marginSide,
-      y: twitterCard.height - twitterCard.marginTop - 15
-    },
-    circleLogo: {
-      transform: `translate(${twitterCard.width - twitterCard.marginSide - circleLogo.width}, ${twitterCard.marginTop})`
-    },
-    natureLogo: {
-      transform: `translate(${twitterCard.width - twitterCard.marginSide - natureLogo.width}, ${twitterCard.height - twitterCard.marginTop - natureLogo.height })`
-    }
-  }
+var padding = {
+  top: 10,
+  side: 30
 };
 
 var twitterCreditLeft = {
   card: twitterCard,
   layers: {
+    bottomBar: {
+      width: twitterCard.width + (2 * padding.side),
+      height: logo.height + (2 * padding.top),
+      x: -padding.side,
+      y: twitterCard.height - logo.height - padding.top
+    },
     headline: {
       x: twitterCard.width / 2,
-      y: twitterCard.height * 0.3
+      y: twitterCard.height * 0.175
     },
     url: {
       textAnchor: 'end',
@@ -65,37 +45,9 @@ var twitterCreditLeft = {
       x: twitterCard.marginSide,
       y: twitterCard.height - twitterCard.marginTop - 15
     },
-    circleLogo: {
-      transform: `translate(${twitterCard.width - twitterCard.marginSide - circleLogo.width}, ${twitterCard.marginTop})`
-    },
-    natureLogo: {
-      transform: `translate(${twitterCard.marginSide}, ${twitterCard.height - twitterCard.marginTop - natureLogo.height })`
-    }
-  }
-};
-
-var instagramCreditRight = {
-  card: instagramCard,
-  layers: {
-    headline: {
-      x: instagramCard.width / 2,
-      y: instagramCard.height * 0.4
-    },
-    url: {
-      textAnchor: 'start',
-      x: instagramCard.marginSide,
-      y: instagramCard.height - instagramCard.marginTop - 20
-    },
-    credit: {
-      textAnchor: 'end',
-      x: instagramCard.width - instagramCard.marginSide,
-      y: instagramCard.height - instagramCard.marginTop - 15
-    },
-    circleLogo: {
-      transform: `translate(${instagramCard.width - instagramCard.marginSide - circleLogo.width}, ${instagramCard.marginTop})`
-    },
-    natureLogo: {
-      transform: `translate(${instagramCard.width - instagramCard.marginSide - natureLogo.width}, ${instagramCard.height - instagramCard.marginTop - natureLogo.height })`
+    journalLogo: {
+      x: padding.side,
+      y: twitterCard.height - logo.height
     }
   }
 };
@@ -103,9 +55,15 @@ var instagramCreditRight = {
 var instagramCreditLeft = {
   card: instagramCard,
   layers: {
+    bottomBar: {
+      width: instagramCard.width + (2 * padding.side),
+      height: logo.height + (2 * padding.top),
+      x: -padding.side,
+      y: instagramCard.height - logo.height - padding.top
+    },
     headline: {
       x: instagramCard.width / 2,
-      y: instagramCard.height * 0.4
+      y: instagramCard.height * 0.3
     },
     url: {
       textAnchor: 'end',
@@ -117,11 +75,9 @@ var instagramCreditLeft = {
       x: instagramCard.marginSide,
       y: instagramCard.height - instagramCard.marginTop - 15
     },
-    circleLogo: {
-      transform: `translate(${twitterCard.width - twitterCard.marginSide - circleLogo.width}, ${instagramCard.marginTop})`
-    },
-    natureLogo: {
-      transform: `translate(${instagramCard.marginSide}, ${instagramCard.height - instagramCard.marginTop - natureLogo.height })`
+    journalLogo: {
+      x: padding.side,
+      y: instagramCard.height - logo.height
     }
   }
 };
