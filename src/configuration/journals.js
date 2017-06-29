@@ -30,6 +30,7 @@ const journals = [
 	{name: 'Nature Reviews Chemistry', colour: '#19675D', logo: './images/Nature-Reviews-Chemistry.png'},
 	{name: 'Nature Reviews Clinical Oncology', colour: '#768BA6', logo: './images/Nature-Reviews-Clinical-Oncology.png'},
 	{name: 'Nature Reviews Disease Primers', colour: '#71a029', logo: './images/Nature-Reviews-Disease-Primers.png'},
+	{name: 'Nature Reviews Drug Discovery', colour: '#E87B1D', logo: './images/Nature-Reviews-Drug-Discovery.png'},
 	{name: 'Nature Reviews Endocrinology', colour: '#84A1AF', logo: './images/Nature-Reviews-Endocrinology.png'},
 	{name: 'Nature Reviews Gastroenterology & Hepatology', colour: '#B5797B', logo: './images/Nature-Reviews-Gastroenterology-&-Hepatology.png'},
 	{name: 'Nature Reviews Genetics', colour: '#b92e2e', logo: './images/Nature-Reviews-Genetics.png'},
@@ -45,6 +46,8 @@ const journals = [
 	{name: 'Nature Structural & Molecular Biology', colour: '#3F1F71', logo: './images/Nature-Structural-&-Molecular-Biology.png'},
 	{name: 'Nature Sustainability', colour: '#c83c1c', logo: './images/Nature-Sustainability.png'},
 	{name: 'Naturejobs', colour: '#085878', logo: './images/Naturejobs.png'},
+	{name: 'Scientific Data', colour: '#3598C2', logo: './images/Scientific-Data.png'},
+	{name: 'Scientific Reports', colour: '#E30613', logo: './images/Scientific-Reports.png'},
 ];
 
 module.exports = journals;
