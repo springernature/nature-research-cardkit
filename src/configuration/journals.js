@@ -1,4 +1,5 @@
 const journals = [
+	{name: 'Nature', colour: '#E30613', logo: './images/Nature.png'},
 	{name: 'Nature Astronomy', colour: '#516B78', logo: './images/Nature-Astronomy.png'},
 	{name: 'Nature Biomedical Engineering', colour: '#85237F', logo: './images/Nature-Biomedical-Engineering.png'},
 	{name: 'Nature Biotechnology', colour: '#918F34', logo: './images/Nature-Biotechnology.png'},
