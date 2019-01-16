@@ -19,3 +19,7 @@
 ### Development
 
 All configuration can be found in `./src/configuration/main.js`. App logic can be found in `./src/app.js`.
+
+### Deploy to GitHub pages 
+
+	sh gh-page-deploy.sh dist
