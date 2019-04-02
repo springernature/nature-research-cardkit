@@ -15,6 +15,7 @@ const journals = [
 	{name: 'Nature Ecology & Evolution', colour: '#7c7640', logo: './images/Nature-Ecology-&-Evolution.png'},
 	{name: 'Nature Electronics', colour: '#488a96', logo: './images/Nature-Electronics.png'},
 	{name: 'Nature Energy', colour: '#ec6608', logo: './images/Nature-Energy.png'},
+	{name: 'Nature Food', colour: '#f2b300', logo: './images/Nature-Food.png'},
 	{name: 'Nature Genetics', colour: '#4A6B53', logo: './images/Nature-Genetics.png'},
 	{name: 'Nature Geoscience', colour: '#00663A', logo: './images/Nature-Geoscience.png'},
 	{name: 'Nature Human Behaviour', colour: '#00497D', logo: './images/Nature-Human-Behaviour.png'},

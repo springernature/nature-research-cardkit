@@ -24,6 +24,7 @@
   "dependencies": {
     "cardkit": "https://github.com/chris-creditdesign/cardkit/tarball/master",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "rvg.js": "https://github.com/chris-creditdesign/rvg.js/tarball/master"
   }
 }
