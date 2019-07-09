@@ -12,7 +12,7 @@ journals.forEach( (item) => {
 				src: item.logo
 			},
 			url: {
-				fill: item.colour
+				fill: item.secondaryColour
 			}
 		}
 	};

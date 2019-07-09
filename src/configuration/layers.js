@@ -91,7 +91,8 @@ module.exports = {
     transform: 'rotate(90,0,0) translate(20,-30)',
     fill: '#FFFFFF',
     editable: {
-      text: true
+      text: true,
+	  fill: true,
     }
   },
   journalLogo: {
