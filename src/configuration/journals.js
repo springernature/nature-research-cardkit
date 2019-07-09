@@ -55,7 +55,7 @@ const journals = [
 	{name: 'Nature Sustainability', colour: '#c83c1c', secondaryColour: '#c83c1c', logo: './images/Nature-Sustainability.png'},
 	{name: 'Naturejobs', colour: '#085878', secondaryColour: '#085878', logo: './images/Naturejobs.png'},
 	{name: 'Scientific Data', colour: '#3598C2', secondaryColour: '#3598C2', logo: './images/Scientific-Data.png'},
-	{name: 'Scientific Reports', colour: '#CEDDD0', secondaryColour: '#575756', logo: './images/Scientific-Reports.png'},
+	{name: 'Scientific Reports', colour: '#cedde4', secondaryColour: '#575756', logo: './images/Scientific-Reports.png'},
 ];
 
 module.exports = journals;
