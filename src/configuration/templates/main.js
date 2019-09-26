@@ -1,21 +1,21 @@
-const journals = require('../journals');
+const journals = require("../journals")
 
-const templates = {};
+const templates = {}
 
-journals.forEach( (item) => {
+journals.forEach(item => {
 	templates[item.name] = {
 		card: {
-			fill: item.colour
+			fill: item.colour,
 		},
 		layers: {
 			journalLogo: {
-				src: item.logo
+				src: item.logo,
 			},
 			url: {
-				fill: item.secondaryColour
-			}
-		}
-	};
-});
+				fill: item.secondaryColour,
+			},
+		},
+	}
+})
 
-module.exports = templates;
+module.exports = templates

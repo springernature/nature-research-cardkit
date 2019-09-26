@@ -1,6 +1,5 @@
 const themes = {
-	default: {
-	}
-};
+	default: {},
+}
 
-module.exports = themes;
+module.exports = themes

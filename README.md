@@ -2,9 +2,13 @@
 
 > Custom cardkit for NRG social media accounts
 
+
+
+View online at: https://springernature.github.io/nrg-cardkit/
+
 ### To do
 
-- Add dy attribute for text
+- Add `dy` attribute for text
 - Add rotation attribute for text
 - Add transform attribute for svg paths
 
