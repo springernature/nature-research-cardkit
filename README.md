@@ -1,16 +1,20 @@
 # nrg-cardkit
 
-> Custom cardkit for NRG social media accounts
+> Custom [cardkit](https://times.github.io/cardkit/) configuration for NRG social media accounts
 
+CardKit documentation: https://times.github.io/cardkit/code/index.html
 
+I'm using forked versions of CarkKit and RVG.js to allow extra SVG attributes, such as opacity: 
+- https://github.com/chris-creditdesign/cardkit
+- https://github.com/chris-creditdesign/rvg.js
 
-View online at: https://springernature.github.io/nrg-cardkit/
+Hosted online as a github page here: https://springernature.github.io/nrg-cardkit/
 
-### To do
+### TODO:
 
 - Add `dy` attribute for text
-- Add rotation attribute for text
-- Add transform attribute for svg paths
+- Add `rotation` attribute for text
+- Add `transform` attribute for svg paths
 
 ### Installation & usage
 
