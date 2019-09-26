@@ -4,27 +4,27 @@
 	"description": "Custom cardkit for NRG social media accounts",
 	"main": "app.js",
 	"scripts": {
-		"start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js -d --content-base src/ --hot --open",
-		"dist": "./node_modules/webpack/bin/webpack.js --env=dist; cp -R ./src/index.html ./dist/index.html"
+		"dev": "npx webpack-dev-server --config webpack.dev.js",
+		"prod": "npx webpack --config webpack.prod.js"
 	},
 	"author": "Chris Ryan <c.ryan@nature.com>",
 	"license": "MIT",
 	"devDependencies": {
-		"babel-core": "^6.17.0",
-		"babel-loader": "^6.2.5",
-		"babel-preset-es2015": "^6.16.0",
+		"@babel/core": "^7.6.2",
+		"@babel/preset-env": "^7.6.2",
+		"babel-loader": "^8.0.6",
+		"deep-extend": "^0.6.0",
 		"minimist": "^1.2.0",
-		"node-sass": "^3.10.1",
-		"sass-loader": "^4.0.2",
 		"svg-inline-loader": "^0.7.1",
-		"url-loader": "^0.5.7",
-		"webpack": "^1.13.2",
-		"webpack-dev-server": "^1.16.2"
+		"webpack-cli": "^3.3.9",
+		"webpack-dev-server": "^3.8.1"
 	},
 	"dependencies": {
-		"cardkit": "https://github.com/chris-creditdesign/cardkit/tarball/master",
-		"react": "^15.3.2",
-		"react-dom": "^15.3.2",
-		"rvg.js": "https://github.com/chris-creditdesign/rvg.js/tarball/master"
+		"cardkit": "github:chris-creditdesign/cardkit",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"uglifyjs-webpack-plugin": "^2.2.0",
+		"webpack": "^4.41.0",
+		"webpack-merge": "^4.2.2"
 	}
 }
