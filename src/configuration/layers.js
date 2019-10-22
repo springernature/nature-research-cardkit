@@ -31,11 +31,7 @@ module.exports = {
 	bottomBar: {
 		name: "Bottom Bar",
 		type: "rectangle",
-		x: 0,
-		y: 420,
-		width: 1066,
-		height: 180,
-		fill: "#FFFFFF",
+		fill: "#ffffff",
 		opacity: 1,
 		editable: {
 			fill: true,
@@ -50,51 +46,38 @@ module.exports = {
 		name: "Main text",
 		type: "text",
 		text:
-			'"Welcome to the NRG\nsocial media image generator,\nplease upload an image and\ncustomise the design."',
-		fontSize: 46,
+			'"Welcome to the NRG\nsocial media image tool"',
+		fontSize: 72,
 		fontFamily:
-			'GlosaMath-Roman, Georgia, Times, "Times New Roman", serif',
+			"HardingText-Regular-Web",
 		get lineHeight() {
-			return this.fontSize * 1.2
+			return this.fontSize * 1.1
 		},
-		textAnchor: "middle",
+		textAnchor: "left",
 		smartQuotes: true,
 		useAsFilename: true,
-		draggable: true,
-		fill: "#FFFFFF",
+		draggable: false,
+		letterSpacing: "-0.02em",
+		fill: "#ffffff",
 		editable: {
 			text: true,
-			textAnchor: true,
+			fill: true,
 			fontSize: {
-				min: 36,
-				max: 72,
+				min: 50,
+				max: 90,
 				step: 1,
 			},
-			fill: true,
 		},
 	},
-	url: {
-		name: "url",
-		type: "text",
-		text: "go.nature.com/XXX",
-		fontSize: 26,
-		fontFamily: "NewsGothicMTOT-Regular, Helvetica, sans-serif",
-		fill: "#000000",
-		editable: {
-			text: true,
-		},
-	},
-	creditSide: {
-		name: "credit on side",
+	credit: {
+		name: "credit on bottom",
 		type: "text",
 		text: "Image credit:",
 		fontSize: 18,
-		fontFamily: "NewsGothicMTOT-Regular, Helvetica, sans-serif",
-		transform: "rotate(90,0,0) translate(20,-30)",
-		fill: "#FFFFFF",
+		fontFamily: "HardingText-Regular-Web",
+		textAnchor: "end",
 		editable: {
 			text: true,
-			fill: true,
 		},
 	},
 	journalLogo: {
@@ -104,7 +87,7 @@ module.exports = {
 		y: 0,
 		width: 600,
 		height: 180,
-		src: "./images/Nature-Astronomy.png",
+		src: "./images/Nature.png",
 		opacity: 1,
 	},
 }

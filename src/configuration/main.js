@@ -5,7 +5,6 @@ const configuration = {
 	card: {
 		width: 1066,
 		height: 600,
-		fill: "#333333",
 	},
 	fonts,
 	layers,

@@ -11,9 +11,6 @@ journals.forEach(item => {
 			journalLogo: {
 				src: item.logo,
 			},
-			url: {
-				fill: item.secondaryColour,
-			},
 		},
 	}
 })
