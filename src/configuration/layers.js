@@ -72,7 +72,7 @@ module.exports = {
 	credit: {
 		name: "credit on bottom",
 		type: "text",
-		text: "Image credit:",
+		text: "Lorem Ipsum",
 		fontSize: 18,
 		fontFamily: "HardingText-Regular-Web",
 		textAnchor: "end",

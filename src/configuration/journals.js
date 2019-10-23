@@ -77,7 +77,7 @@ const journals = [
 	},
 	{
 		name: "Nature Communications",
-		colour: coloursArray[0],
+		colour: coloursArray[6],
 		logo: "./images/Nature-Communications.png",
 	},
 	{
