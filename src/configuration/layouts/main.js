@@ -30,7 +30,7 @@ const twitterCreditLeft = {
 		},
 		credit: {
 			x: twitterCard.width - twitterCard.marginSide,
-			y: twitterCard.height - twitterCard.marginTop - 18,
+			y: twitterCard.height - twitterCard.marginTop - 36,
 		},
 		journalLogo: {
 			x: twitterCard.marginSide,
