@@ -25,3 +25,10 @@ All configuration can be found in `./src/configuration/main.js`. App logic can b
 ### Deploy to GitHub pages 
 
 	sh gh-page-deploy.sh dist
+
+### TODO:
+
+- Add Nature Reviews Earth and Environment
+- Add Nature Cancer
+- Add Nature Masterclasses 
+- Nature Methods, new colour

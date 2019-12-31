@@ -157,7 +157,7 @@ const journals = [
 	},
 	{
 		name: "Nature Methods",
-		colour: coloursArray[9],
+		colour: coloursArray[14],
 		logo: "./images/Nature-Methods.png",
 	},
 	{
