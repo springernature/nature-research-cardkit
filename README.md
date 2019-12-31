@@ -1,27 +1,21 @@
-# nrg-cardkit
+# Nature Research CardKit
 
-> Custom [cardkit](https://times.github.io/cardkit/) configuration for NRG social media accounts
+> Custom [cardkit](https://times.github.io/cardkit/) configuration for Nature Research social media accounts
 
 CardKit documentation: https://times.github.io/cardkit/code/index.html
 
-I'm using forked versions of CarkKit and RVG.js to allow extra SVG attributes, such as opacity: 
+I'm using forked versions of CardKit and RVG.js to allow extra SVG attributes, such as opacity: 
 - https://github.com/chris-creditdesign/cardkit
 - https://github.com/chris-creditdesign/rvg.js
 
-Hosted online as a github page here: https://springernature.github.io/nrg-cardkit/
-
-### TODO:
-
-- Add `dy` attribute for text
-- Add `rotation` attribute for text
-- Add `transform` attribute for svg paths
+Hosted online as a github page here: https://springernature.github.io/nature-research-cardkit/
 
 ### Installation & usage
 
 - Clone this repo
 - Install dependencies: `$ npm install`
 
-- Run locally: `$ npm start`
+- Run locally: `$ npm run dev`
 - Build for distribution: `$ npm run dist`
 
 ### Development
