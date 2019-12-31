@@ -317,6 +317,11 @@ const journals = [
 		logo: "./images/Nature-Careers.png",
 	},
 	{
+		name: "Nature Masterclasses",
+		colour: coloursArray[7],
+		logo: "./images/Nature-Masterclasses.png",
+	},
+	{
 		name: "Scientific Data",
 		colour: "#3598C2",
 		logo: "./images/Scientific-Data.png",
