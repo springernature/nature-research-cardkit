@@ -211,6 +211,11 @@ const journals = [
 		logo: "./images/Nature-Reviews-Cardiology.png",
 	},
 	{
+		name: "Nature Reviews Earth and Environment",
+		colour: coloursArray[22],
+		logo: "./images/Nature-Reviews-Earth-and-Environment.png",
+	},
+	{
 		name: "Nature Reviews Nephrology",
 		colour: coloursArray[14],
 		logo: "./images/Nature-Reviews-Nephrology.png",
