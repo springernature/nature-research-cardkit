@@ -51,6 +51,11 @@ const journals = [
 		logo: "./images/Nature-Biotechnology.png",
 	},
 	{
+		name: "Nature Cancer",
+		colour: coloursArray[7],
+		logo: "./images/Nature-Cancer.png",
+	},
+	{
 		name: "Nature Catalysis",
 		colour: coloursArray[14],
 		logo: "./images/Nature-Catalysis.png",
