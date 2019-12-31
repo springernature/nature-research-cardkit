@@ -46,8 +46,8 @@ module.exports = {
 		name: "Main text",
 		type: "text",
 		text:
-			'"Welcome to the NRG\nsocial media image tool"',
-		fontSize: 72,
+			'"Welcome to the Nature Research\nsocial media image tool"',
+		fontSize: 66,
 		fontFamily:
 			"HardingText-Regular-Web",
 		get lineHeight() {

@@ -1,5 +1,5 @@
 {
-	"name": "nrg-cardkit",
+	"name": "nature-research-cardkit",
 	"version": "1.0.0",
 	"description": "Custom cardkit for NRG social media accounts",
 	"main": "app.js",
