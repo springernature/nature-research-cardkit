@@ -16,7 +16,7 @@ Hosted online as a github page here: https://springernature.github.io/nature-res
 - Install dependencies: `$ npm install`
 
 - Run locally: `$ npm run dev`
-- Build for distribution: `$ npm run dist`
+- Build for distribution: `$ npm run prod`
 
 ### Development
 

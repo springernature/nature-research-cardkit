@@ -86,18 +86,28 @@ const journals = [
 		logo: "./images/Nature-Communications.png",
 	},
 	{
+		name: "Nature Communications Materials",
+		colour: "#5da9cd",
+		logo: "./images/Nature-Communications-Materials.png",
+	},
+	{
+		name: "Nature Communications Earth & Environment",
+		colour: "#cbd759",
+		logo: "./images/Nature-Communications-Earth-&-Environment.png",
+	},
+	{
 		name: "Nature Communications Chemistry",
-		colour: coloursArray[0],
+		colour: "#ee7d00",
 		logo: "./images/Nature-Communications-Chemistry.png",
 	},
 	{
 		name: "Nature Communications Biology",
-		colour: coloursArray[0],
+		colour: "#e20613",
 		logo: "./images/Nature-Communications-Biology.png",
 	},
 	{
 		name: "Nature Communications Physics",
-		colour: coloursArray[0],
+		colour: "#ffcb00",
 		logo: "./images/Nature-Communications-Physics.png",
 	},
 	{
