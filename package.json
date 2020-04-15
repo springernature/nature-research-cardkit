@@ -14,7 +14,7 @@
     "@babel/preset-env": "^7.6.2",
     "babel-loader": "^8.0.6",
     "deep-extend": "^0.6.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.5",
     "svg-inline-loader": "^0.7.1",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.1"
