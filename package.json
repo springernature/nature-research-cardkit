@@ -1,30 +1,29 @@
 {
-	"name": "nature-research-cardkit",
-	"version": "1.0.0",
-	"description": "Custom cardkit for NRG social media accounts",
-	"main": "app.js",
-	"scripts": {
-		"dev": "npx webpack-dev-server --config webpack.dev.js",
-		"prod": "npx webpack --config webpack.prod.js"
-	},
-	"author": "Chris Ryan <c.ryan@nature.com>",
-	"license": "MIT",
-	"devDependencies": {
-		"@babel/core": "^7.6.2",
-		"@babel/preset-env": "^7.6.2",
-		"babel-loader": "^8.0.6",
-		"deep-extend": "^0.6.0",
-		"minimist": "^1.2.0",
-		"svg-inline-loader": "^0.7.1",
-		"webpack-cli": "^3.3.9",
-		"webpack-dev-server": "^3.8.1"
-	},
-	"dependencies": {
-		"cardkit": "github:chris-creditdesign/cardkit",
-		"react": "^16.9.0",
-		"react-dom": "^16.9.0",
-		"uglifyjs-webpack-plugin": "^2.2.0",
-		"webpack": "^4.41.0",
-		"webpack-merge": "^4.2.2"
-	}
+  "name": "nature-research-cardkit",
+  "version": "1.0.0",
+  "description": "Custom cardkit for NRG social media accounts",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npx webpack-dev-server --config webpack.dev.js",
+    "prod": "npx webpack --config webpack.prod.js"
+  },
+  "author": "Chris Ryan <c.ryan@nature.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "deep-extend": "^0.6.0",
+    "minimist": "^1.2.0",
+    "svg-inline-loader": "^0.7.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "dependencies": {
+    "cardkit": "github:chris-creditdesign/cardkit",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.41.0",
+    "webpack-merge": "^4.2.2"
+  }
 }
