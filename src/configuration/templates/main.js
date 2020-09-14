@@ -22,7 +22,7 @@ journals.sort((a, b) => {
 journals.forEach(item => {
 	templates[item.name] = {
 		card: {
-			fill: item.colour,
+			fill: item.colour.value,
 		},
 		layers: {
 			journalLogo: {
