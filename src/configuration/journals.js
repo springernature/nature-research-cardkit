@@ -81,32 +81,32 @@ const journals = [
 		logo: "./images/Nature-Climate-Change.png",
 	},
 	{
-		name: "Nature Communications",
+		name: "Communications Journals",
 		colour: coloursArray[6],
 		logo: "./images/Nature-Communications.png",
 	},
 	{
-		name: "Nature Communications Materials",
+		name: "Communications Materials",
 		colour: "#5da9cd",
 		logo: "./images/Nature-Communications-Materials.png",
 	},
 	{
-		name: "Nature Communications Earth & Environment",
+		name: "Communications Earth & Environment",
 		colour: "#cbd759",
 		logo: "./images/Nature-Communications-Earth-&-Environment.png",
 	},
 	{
-		name: "Nature Communications Chemistry",
+		name: "Communications Chemistry",
 		colour: "#ee7d00",
 		logo: "./images/Nature-Communications-Chemistry.png",
 	},
 	{
-		name: "Nature Communications Biology",
+		name: "Communications Biology",
 		colour: "#e20613",
 		logo: "./images/Nature-Communications-Biology.png",
 	},
 	{
-		name: "Nature Communications Physics",
+		name: "Communications Physics",
 		colour: "#ffcb00",
 		logo: "./images/Nature-Communications-Physics.png",
 	},
