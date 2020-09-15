@@ -102,37 +102,37 @@ const journals = [
   {
     name: "Communications Journals",
     colour: findColourName("orange3"),
-    logo: "./images/Nature-Communications.png",
+    logo: "./images/Communications-Journals.png",
 	useHarding: false,
   },
   {
     name: "Communications Materials",
     colour: findColourName("Communications Materials"),
-    logo: "./images/Nature-Communications-Materials.png",
+    logo: "./images/Communications-Materials.png",
 	useHarding: false,
   },
   {
     name: "Communications Earth & Environment",
     colour: findColourName("Communications Earth & Environment"),
-    logo: "./images/Nature-Communications-Earth-&-Environment.png",
+    logo: "./images/Communications-Earth-&-Environment.png",
 	useHarding: false,
   },
   {
     name: "Communications Chemistry",
     colour: findColourName("Communications Chemistry"),
-    logo: "./images/Nature-Communications-Chemistry.png",
+    logo: "./images/Communications-Chemistry.png",
 	useHarding: false,
   },
   {
     name: "Communications Biology",
     colour: findColourName("Communications Biology"),
-    logo: "./images/Nature-Communications-Biology.png",
+    logo: "./images/Communications-Biology.png",
 	useHarding: false,
   },
   {
     name: "Communications Physics",
     colour: findColourName("Communications Physics"),
-    logo: "./images/Nature-Communications-Physics.png",
+    logo: "./images/Communications-Physics.png",
 	useHarding: false,
   },
   {
