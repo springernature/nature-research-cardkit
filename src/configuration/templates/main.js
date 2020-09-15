@@ -31,6 +31,7 @@ journals.forEach(item => {
 			headline: {
 				fontFamily: item.useHarding ? "HardingText-Regular-Web" : "GraphikNature-Regular-Web",
 				letterSpacing: item.useHarding ? "-0.02em" : "-0.04em",
+				fill: item.colour.contrastSafe ? "#ffffff" : "#000000",
 			}
 		},
 	}
