@@ -28,6 +28,10 @@ journals.forEach(item => {
 			journalLogo: {
 				src: item.logo,
 			},
+			headline: {
+				fontFamily: item.useHarding ? "HardingText-Regular-Web" : "GraphikNature-Regular-Web",
+				letterSpacing: item.useHarding ? "-0.02em" : "-0.04em",
+			}
 		},
 	}
 })

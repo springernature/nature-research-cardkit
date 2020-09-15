@@ -47,9 +47,9 @@ module.exports = {
 		type: "text",
 		text:
 			'"Welcome to the Nature Research\nsocial media image tool"',
-		fontSize: 66,
+		fontSize: 60,
 		fontFamily:
-			"HardingText-Regular-Web",
+			"GraphikNature-Regular-Web",
 		get lineHeight() {
 			return this.fontSize * 1.1
 		},
@@ -57,7 +57,7 @@ module.exports = {
 		smartQuotes: true,
 		useAsFilename: true,
 		draggable: false,
-		letterSpacing: "-0.02em",
+		letterSpacing: "-0.04em",
 		fill: "#ffffff",
 		editable: {
 			text: true,
@@ -72,9 +72,9 @@ module.exports = {
 	credit: {
 		name: "credit on bottom",
 		type: "text",
-		text: "Lorem Ipsum",
+		text: "",
 		fontSize: 18,
-		fontFamily: "HardingText-Regular-Web",
+		fontFamily: "GraphikNature-Regular-Web",
 		textAnchor: "end",
 		editable: {
 			text: true,
