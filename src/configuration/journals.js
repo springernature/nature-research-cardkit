@@ -314,7 +314,7 @@ const journals = [
   },
   {
     name: "Nature Reviews Microbiology",
-    colour: natureColours.get("blue1"),
+    colour: natureColours.get("red3"),
     logo: "./images/Nature-Reviews-Microbiology.png",
 	useHarding: true,
   },
