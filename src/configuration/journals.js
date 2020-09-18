@@ -100,8 +100,14 @@ const journals = [
 	useHarding: true,
   },
   {
-    name: "Communications Journals",
+    name: "Nature Communications",
     colour: findColourName("orange3"),
+    logo: "./images/Nature-Communications.png",
+	useHarding: false,
+  },
+  {
+    name: "Communications Journals",
+    colour: findColourName("black"),
     logo: "./images/Communications-Journals.png",
 	useHarding: false,
   },
