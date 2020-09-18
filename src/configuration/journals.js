@@ -1,419 +1,416 @@
 /* Nature Color Palette */
 /* contrastSafe means it is safe to run white text 
    over this colour */
-const coloursArray = [
-  { name: "black", value: "#000000", contrastSafe: true },
-  { name: "yellow1", value: "#efd600", contrastSafe: false },
-  { name: "yellow2", value: "#ffd500", contrastSafe: false },
-  { name: "yellow3", value: "#fbba00", contrastSafe: false },
-  { name: "orange1", value: "#f7a70b", contrastSafe: false },
-  { name: "orange2", value: "#eb5b25", contrastSafe: true },
-  { name: "orange3", value: "#e63323", contrastSafe: true },
-  { name: "red1", value: "#e40428", contrastSafe: true },
-  { name: "red2", value: "#e5005b", contrastSafe: true },
-  { name: "red3", value: "#c82285", contrastSafe: true },
-  { name: "purple1", value: "#964091", contrastSafe: true },
-  { name: "purple2", value: "#6c4796", contrastSafe: true },
-  { name: "purple3", value: "#494495", contrastSafe: true },
-  { name: "blue1", value: "#1951a0", contrastSafe: true },
-  { name: "blue2", value: "#006eb7", contrastSafe: true },
-  { name: "blue3", value: "#0085c8", contrastSafe: true },
-  { name: "turquoise1", value: "#0095bb", contrastSafe: true },
-  { name: "turquoise2", value: "#0094a4", contrastSafe: true },
-  { name: "turquoise3", value: "#00928c", contrastSafe: true },
-  { name: "seagreen1", value: "#008b68", contrastSafe: true },
-  { name: "seagreen2", value: "#229863", contrastSafe: true },
-  { name: "seagreen3", value: "#449b50", contrastSafe: true },
-  { name: "leafgreen1", value: "#3fa535", contrastSafe: true },
-  { name: "leafgreen2", value: "#76b82a", contrastSafe: false },
-  { name: "leafgreen3", value: "#c7d530", contrastSafe: false },
-  { name: "Communications Materials", value: "#5da9cd", contrastSafe: false },
-  { name: "Communications Earth & Environment", value: "#cbd759", contrastSafe: false },
-  { name: "Communications Chemistry", value: "#ee7d00", contrastSafe: false },
-  { name: "Communications Biology", value: "#e20613", contrastSafe: true },
-  { name: "Communications Physics", value: "#ffcb00", contrastSafe: false },
-  { name: "Scientific Data", value: "#3598C2", contrastSafe: true },
-  { name: "Scientific Reports", value: "#cedde4", contrastSafe: false },
-];
-
-const findColourName = name => coloursArray.find(elem => elem.name === name);
+const natureColours = new Map();
+natureColours.set("black", {value: "#000000", contrastSafe: true });
+natureColours.set("yellow1", {value: "#efd600", contrastSafe: false });
+natureColours.set("yellow2", {value: "#ffd500", contrastSafe: false });
+natureColours.set("yellow3", {value: "#fbba00", contrastSafe: false });
+natureColours.set("orange1", {value: "#f7a70b", contrastSafe: false });
+natureColours.set("orange2", {value: "#eb5b25", contrastSafe: true });
+natureColours.set("orange3", {value: "#e63323", contrastSafe: true });
+natureColours.set("red1", {value: "#e40428", contrastSafe: true });
+natureColours.set("red2", {value: "#e5005b", contrastSafe: true });
+natureColours.set("red3", {value: "#c82285", contrastSafe: true });
+natureColours.set("purple1", {value: "#964091", contrastSafe: true });
+natureColours.set("purple2", {value: "#6c4796", contrastSafe: true });
+natureColours.set("purple3", {value: "#494495", contrastSafe: true });
+natureColours.set("blue1", {value: "#1951a0", contrastSafe: true });
+natureColours.set("blue2", {value: "#006eb7", contrastSafe: true });
+natureColours.set("blue3", {value: "#0085c8", contrastSafe: true });
+natureColours.set("turquoise1", {value: "#0095bb", contrastSafe: true });
+natureColours.set("turquoise2", {value: "#0094a4", contrastSafe: true });
+natureColours.set("turquoise3", {value: "#00928c", contrastSafe: true });
+natureColours.set("seagreen1", {value: "#008b68", contrastSafe: true });
+natureColours.set("seagreen2", {value: "#229863", contrastSafe: true });
+natureColours.set("seagreen3", {value: "#449b50", contrastSafe: true });
+natureColours.set("leafgreen1", {value: "#3fa535", contrastSafe: true });
+natureColours.set("leafgreen2", {value: "#76b82a", contrastSafe: false });
+natureColours.set("leafgreen3", {value: "#c7d530", contrastSafe: false });
+natureColours.set("Communications Materials", {value: "#5da9cd", contrastSafe: false });
+natureColours.set("Communications Earth & Environment", {value: "#cbd759", contrastSafe: false });
+natureColours.set("Communications Chemistry", {value: "#ee7d00", contrastSafe: false });
+natureColours.set("Communications Biology", {value: "#e20613", contrastSafe: true });
+natureColours.set("Communications Physics", {value: "#ffcb00", contrastSafe: false });
+natureColours.set("Scientific Data", {value: "#3598C2", contrastSafe: true });
+natureColours.set("Scientific Reports", {value: "#cedde4", contrastSafe: false });
 
 const journals = [
   {
     name: "Nature",
-    colour: findColourName("black"),
+    colour: natureColours.get("black"),
     logo: "./images/Nature.png",
 	useHarding: true,
   },
   {
     name: "Nature Astronomy",
-    colour: findColourName("blue3"),
+    colour: natureColours.get("blue3"),
     logo: "./images/Nature-Astronomy.png",
 	useHarding: true,
   },
   {
     name: "Nature Biomedical Engineering",
-    colour: findColourName("purple1"),
+    colour: natureColours.get("purple1"),
     logo: "./images/Nature-Biomedical-Engineering.png",
 	useHarding: true,
   },
   {
     name: "Nature Biotechnology",
-    colour: findColourName("yellow1"),
+    colour: natureColours.get("yellow1"),
     logo: "./images/Nature-Biotechnology.png",
 	useHarding: true,
   },
   {
     name: "Nature Cancer",
-    colour: findColourName("red1"),
+    colour: natureColours.get("red1"),
     logo: "./images/Nature-Cancer.png",
 	useHarding: true,
   },
   {
     name: "Nature Catalysis",
-    colour: findColourName("blue2"),
+    colour: natureColours.get("blue2"),
     logo: "./images/Nature-Catalysis.png",
 	useHarding: true,
   },
   {
     name: "Nature Cell Biology",
-    colour: findColourName("blue3"),
+    colour: natureColours.get("blue3"),
     logo: "./images/Nature-Cell-Biology.png",
 	useHarding: true,
   },
   {
     name: "Nature Chemical Biology",
-    colour: findColourName("turquoise2"),
+    colour: natureColours.get("turquoise2"),
     logo: "./images/Nature-Chemical-Biology.png",
 	useHarding: true,
   },
   {
     name: "Nature Chemistry",
-    colour: findColourName("purple2"),
+    colour: natureColours.get("purple2"),
     logo: "./images/Nature-Chemistry.png",
 	useHarding: true,
   },
   {
     name: "Nature Climate Change",
-    colour: findColourName("turquoise1"),
+    colour: natureColours.get("turquoise1"),
     logo: "./images/Nature-Climate-Change.png",
 	useHarding: true,
   },
   {
     name: "Nature Communications",
-    colour: findColourName("orange3"),
+    colour: natureColours.get("orange3"),
     logo: "./images/Nature-Communications.png",
 	useHarding: false,
   },
   {
     name: "Communications Journals",
-    colour: findColourName("black"),
+    colour: natureColours.get("black"),
     logo: "./images/Communications-Journals.png",
 	useHarding: false,
   },
   {
     name: "Communications Materials",
-    colour: findColourName("Communications Materials"),
+    colour: natureColours.get("Communications Materials"),
     logo: "./images/Communications-Materials.png",
 	useHarding: false,
   },
   {
     name: "Communications Earth & Environment",
-    colour: findColourName("Communications Earth & Environment"),
+    colour: natureColours.get("Communications Earth & Environment"),
     logo: "./images/Communications-Earth-&-Environment.png",
 	useHarding: false,
   },
   {
     name: "Communications Chemistry",
-    colour: findColourName("Communications Chemistry"),
+    colour: natureColours.get("Communications Chemistry"),
     logo: "./images/Communications-Chemistry.png",
 	useHarding: false,
   },
   {
     name: "Communications Biology",
-    colour: findColourName("Communications Biology"),
+    colour: natureColours.get("Communications Biology"),
     logo: "./images/Communications-Biology.png",
 	useHarding: false,
   },
   {
     name: "Communications Physics",
-    colour: findColourName("Communications Physics"),
+    colour: natureColours.get("Communications Physics"),
     logo: "./images/Communications-Physics.png",
 	useHarding: false,
   },
   {
     name: "Nature Ecology & Evolution",
-    colour: findColourName("leafgreen3"),
+    colour: natureColours.get("leafgreen3"),
     logo: "./images/Nature-Ecology-&-Evolution.png",
 	useHarding: true,
   },
   {
     name: "Nature Electronics",
-    colour: findColourName("turquoise2"),
+    colour: natureColours.get("turquoise2"),
     logo: "./images/Nature-Electronics.png",
 	useHarding: true,
   },
   {
     name: "Nature Energy",
-    colour: findColourName("orange2"),
+    colour: natureColours.get("orange2"),
     logo: "./images/Nature-Energy.png",
 	useHarding: true,
   },
   {
     name: "Nature Food",
-    colour: findColourName("yellow3"),
+    colour: natureColours.get("yellow3"),
     logo: "./images/Nature-Food.png",
 	useHarding: true,
   },
   {
     name: "Nature Genetics",
-    colour: findColourName("seagreen1"),
+    colour: natureColours.get("seagreen1"),
     logo: "./images/Nature-Genetics.png",
 	useHarding: true,
   },
   {
     name: "Nature Geoscience",
-    colour: findColourName("seagreen3"),
+    colour: natureColours.get("seagreen3"),
     logo: "./images/Nature-Geoscience.png",
 	useHarding: true,
   },
   {
     name: "Nature Human Behaviour",
-    colour: findColourName("blue1"),
+    colour: natureColours.get("blue1"),
     logo: "./images/Nature-Human-Behaviour.png",
 	useHarding: true,
   },
   {
     name: "Nature Immunology",
-    colour: findColourName("blue1"),
+    colour: natureColours.get("blue1"),
     logo: "./images/Nature-Immunology.png",
 	useHarding: true,
   },
   {
     name: "Nature Machine Intelligence",
-    colour: findColourName("turquoise1"),
+    colour: natureColours.get("turquoise1"),
     logo: "./images/Nature-Machine-Intelligence.png",
 	useHarding: true,
   },
   {
     name: "Nature Materials",
-    colour: findColourName("red1"),
+    colour: natureColours.get("red1"),
     logo: "./images/Nature-Materials.png",
 	useHarding: true,
   },
   {
     name: "Nature Medicine",
-    colour: findColourName("red1"),
+    colour: natureColours.get("red1"),
     logo: "./images/Nature-Medicine.png",
 	useHarding: true,
   },
   {
     name: "Nature Metabolism",
-    colour: findColourName("orange2"),
+    colour: natureColours.get("orange2"),
     logo: "./images/Nature-Metabolism.png",
 	useHarding: true,
   },
   {
     name: "Nature Methods",
-    colour: findColourName("blue2"),
+    colour: natureColours.get("blue2"),
     logo: "./images/Nature-Methods.png",
 	useHarding: true,
   },
   {
     name: "Nature Microbiology",
-    colour: findColourName("purple1"),
+    colour: natureColours.get("purple1"),
     logo: "./images/Nature-Microbiology.png",
 	useHarding: true,
   },
   {
     name: "Nature Nanotechnology",
-    colour: findColourName("orange1"),
+    colour: natureColours.get("orange1"),
     logo: "./images/Nature-Nanotechnology.png",
 	useHarding: true,
   },
   {
     name: "Nature Neuroscience",
-    colour: findColourName("turquoise3"),
+    colour: natureColours.get("turquoise3"),
     logo: "./images/Nature-Neuroscience.png",
 	useHarding: true,
   },
   {
     name: "Nature Photonics",
-    colour: findColourName("blue2"),
+    colour: natureColours.get("blue2"),
     logo: "./images/Nature-Photonics.png",
 	useHarding: true,
   },
   {
     name: "Nature Physics",
-    colour: findColourName("purple3"),
+    colour: natureColours.get("purple3"),
     logo: "./images/Nature-Physics.png",
 	useHarding: true,
   },
   {
     name: "Nature Plants",
-    colour: findColourName("seagreen3"),
+    colour: natureColours.get("seagreen3"),
     logo: "./images/Nature-Plants.png",
 	useHarding: true,
   },
   {
     name: "Nature Protocols",
-    colour: findColourName("purple3"),
+    colour: natureColours.get("purple3"),
     logo: "./images/Nature-Protocols.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Endocrinology",
-    colour: findColourName("blue3"),
+    colour: natureColours.get("blue3"),
     logo: "./images/Nature-Reviews-Endocrinology.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Cardiology",
-    colour: findColourName("purple2"),
+    colour: natureColours.get("purple2"),
     logo: "./images/Nature-Reviews-Cardiology.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Earth and Environment",
-    colour: findColourName("leafgreen1"),
+    colour: natureColours.get("leafgreen1"),
     logo: "./images/Nature-Reviews-Earth-and-Environment.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Nephrology",
-    colour: findColourName("blue2"),
+    colour: natureColours.get("blue2"),
     logo: "./images/Nature-Reviews-Nephrology.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Clinical Oncology",
-    colour: findColourName("red3"),
+    colour: natureColours.get("red3"),
     logo: "./images/Nature-Reviews-Clinical-Oncology.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Rheumatology",
-    colour: findColourName("orange3"),
+    colour: natureColours.get("orange3"),
     logo: "./images/Nature-Reviews-Rheumatology.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Gastroenterology & Hepatology",
-    colour: findColourName("orange3"),
+    colour: natureColours.get("orange3"),
     logo: "./images/Nature-Reviews-Gastroenterology-&-Hepatology.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Neurology",
-    colour: findColourName("purple1"),
+    colour: natureColours.get("purple1"),
     logo: "./images/Nature-Reviews-Neurology.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Urology",
-    colour: findColourName("turquoise3"),
+    colour: natureColours.get("turquoise3"),
     logo: "./images/Nature-Reviews-Urology.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Microbiology",
-    colour: findColourName("blue1"),
+    colour: natureColours.get("blue1"),
     logo: "./images/Nature-Reviews-Microbiology.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Genetics",
-    colour: findColourName("red1"),
+    colour: natureColours.get("red1"),
     logo: "./images/Nature-Reviews-Genetics.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Neuroscience",
-    colour: findColourName("leafgreen1"),
+    colour: natureColours.get("leafgreen1"),
     logo: "./images/Nature-Reviews-Neuroscience.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Molecular Cell Biology",
-    colour: findColourName("blue1"),
+    colour: natureColours.get("blue1"),
     logo: "./images/Nature-Reviews-Molecular-Cell-Biology.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Cancer",
-    colour: findColourName("turquoise1"),
+    colour: natureColours.get("turquoise1"),
     logo: "./images/Nature-Reviews-Cancer.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Immunology",
-    colour: findColourName("purple2"),
+    colour: natureColours.get("purple2"),
     logo: "./images/Nature-Reviews-Immunology.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Drug Discovery",
-    colour: findColourName("orange1"),
+    colour: natureColours.get("orange1"),
     logo: "./images/Nature-Reviews-Drug-Discovery.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Disease Primers",
-    colour: findColourName("leafgreen2"),
+    colour: natureColours.get("leafgreen2"),
     logo: "./images/Nature-Reviews-Disease-Primers.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Materials",
-    colour: findColourName("blue3"),
+    colour: natureColours.get("blue3"),
     logo: "./images/Nature-Reviews-Materials.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Chemistry",
-    colour: findColourName("seagreen1"),
+    colour: natureColours.get("seagreen1"),
     logo: "./images/Nature-Reviews-Chemistry.png",
 	useHarding: true,
   },
   {
     name: "Nature Reviews Physics",
-    colour: findColourName("blue2"),
+    colour: natureColours.get("blue2"),
     logo: "./images/Nature-Reviews-Physics.png",
 	useHarding: true,
   },
   {
     name: "Nature Structural & Molecular Biology",
-    colour: findColourName("purple2"),
+    colour: natureColours.get("purple2"),
     logo: "./images/Nature-Structural-&-Molecular-Biology.png",
 	useHarding: true,
   },
   {
     name: "Nature Sustainability",
-    colour: findColourName("orange3"),
+    colour: natureColours.get("orange3"),
     logo: "./images/Nature-Sustainability.png",
 	useHarding: true,
   },
   {
     name: "Nature Careers",
-    colour: findColourName("black"),
+    colour: natureColours.get("black"),
     logo: "./images/Nature-Careers.png",
 	useHarding: true,
   },
   {
     name: "Nature Masterclasses",
-    colour: findColourName("red1"),
+    colour: natureColours.get("red1"),
     logo: "./images/Nature-Masterclasses.png",
 	useHarding: true,
   },
   {
     name: "Scientific Data",
-    colour: findColourName("Scientific Data"),
+    colour: natureColours.get("Scientific Data"),
     logo: "./images/Scientific-Data.png",
 	useHarding: false,
   },
   {
     name: "Scientific Reports",
-    colour: findColourName("Scientific Reports"),
+    colour: natureColours.get("Scientific Reports"),
     logo: "./images/Scientific-Reports.png",
 	useHarding: false,
   },
