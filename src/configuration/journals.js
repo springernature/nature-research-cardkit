@@ -47,6 +47,10 @@ natureColours.set("Communications Physics", {
   value: "#ffcb00",
   contrastSafe: false,
 });
+natureColours.set("Communications Medicine", {
+  value: "#227922",
+  contrastSafe: true,
+});
 natureColours.set("Scientific Data", { value: "#3598C2", contrastSafe: true });
 natureColours.set("Scientific Reports", {
   value: "#cedde4",
@@ -516,6 +520,12 @@ const journals = [
     name: "Communications Physics",
     colour: natureColours.get("Communications Physics"),
     logo: "./images/Communications-Physics.png",
+    useHarding: false,
+  },
+  {
+    name: "Communications Medicine",
+    colour: natureColours.get("Communications Medicine"),
+    logo: "./images/Communications-Medicine.png",
     useHarding: false,
   },
   {
